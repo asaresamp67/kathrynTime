@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Rainbow from '../HOC/RainBow'
 export const About = () => {
   return (
     <>
@@ -15,4 +15,4 @@ export const About = () => {
   )
 }
 
-export default About
+export default Rainbow(About)
